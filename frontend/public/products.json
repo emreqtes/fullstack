@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Ürün 1",
+    "popularityScore": 0.8,
+    "weight": 200,
+    "images": ["/resim1.png"],
+    "price": "0.00"
+  },
+  {
+    "name": "Ürün 2",
+    "popularityScore": 0.6,
+    "weight": 180,
+    "images": ["/resim2.png"],
+    "price": "0.00"
+  },
+  {
+    "name": "Ürün 3",
+    "popularityScore": 0.7,
+    "weight": 250,
+    "images": ["/resim3.png"],
+    "price": "0.00"
+  },
+  {
+    "name": "Ürün 4",
+    "popularityScore": 0.5,
+    "weight": 150,
+    "images": ["/resim4.png"],
+    "price": "0.00"
+  }
+]

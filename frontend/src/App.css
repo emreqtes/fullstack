@@ -1,0 +1,119 @@
+.app {
+  font-family: 'Avenir', 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  padding: 40px 56px;
+  color: #222;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 8px 0 32px;
+}
+
+.listWrap {
+  position: relative;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.filters input {
+  width: 120px;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.filters button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.productsScroller {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 260px;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  scroll-behavior: smooth;
+}
+
+.navBtn {
+  position: absolute;
+  top: 120px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.navLeft { left: -8px; }
+.navRight { right: -8px; }
+
+.productCard {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+}
+
+.imageBox {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.imageBox img { width: 100%; height: 100%; object-fit: cover; }
+
+.imgArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.9);
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.imgArrowLeft { left: 8px; }
+.imgArrowRight { right: 8px; }
+
+.name { font-size: 14px; margin: 10px 0 4px; }
+.price { font-size: 14px; color: #111; margin: 0 0 8px; }
+
+.colorRow { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+.colorDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+.dotYellow { background: #E6CA97; }
+.dotWhite { background: #D9D9D9; }
+.dotRose { background: #E1A4A9; }
+
+.colorLabel { font-size: 11px; color: #666; margin-left: 6px; }
+
+.starsRow { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+.stars { color: #F5A524; font-size: 14px; letter-spacing: 1px; }
+.ratingText { font-size: 12px; color: #666; }

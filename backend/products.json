@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ürün 1",
+    "popularityScore": 0.8,
+    "weight": 200,
+    "images": [
+      "/images/resim1.png",
+      "/images/resim2.png",
+      "/images/resim3.png"
+    ]
+  },
+  {
+    "name": "Ürün 2",
+    "popularityScore": 0.6,
+    "weight": 180,
+    "images": [
+      "/images/resim2.png",
+      "/images/resim3.png",
+      "/images/resim4.png"
+    ]
+  },
+  {
+    "name": "Ürün 3",
+    "popularityScore": 0.7,
+    "weight": 250,
+    "images": [
+      "/images/resim3.png",
+      "/images/resim4.png",
+      "/images/resim1.png"
+    ]
+  },
+  {
+    "name": "Ürün 4",
+    "popularityScore": 0.5,
+    "weight": 150,
+    "images": [
+      "/images/resim4.png",
+      "/images/resim1.png",
+      "/images/resim2.png"
+    ]
+  }
+]
